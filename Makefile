@@ -48,5 +48,3 @@ deb: pre_debbuild
 	cd $(debbuild_dir)/$(name)-$(version) && debuild -us -uc 
 	find $(debbuild_dir) -maxdepth 1 -name "*.deb" -exec cp '{}' . \;
 
-
-
