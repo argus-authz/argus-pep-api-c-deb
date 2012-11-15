@@ -1,2 +1,4 @@
 /debbuild
 /*.deb
+/*.tar.gz
+/*.dsc
