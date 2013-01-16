@@ -55,7 +55,7 @@ git_source:
 	@echo "Checkout source from $(git_url)"
 	git clone $(git_url)
 	(cd $(name) && git checkout $(git_branch))
-	(cd $(name) && make dist)
+	(cd $(name) && ./autotools.sh && ./configure && make dist)
 	mkdir -p $(debbuild_dir)
 	cp $(name)/$(name)-$(version).tar.gz $(debbuild_dir)/$(name)_$(version).orig.tar.gz
 
