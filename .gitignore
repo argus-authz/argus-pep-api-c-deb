@@ -1,4 +1,5 @@
 /debbuild
+/argus-pep-api-c
 /*.deb
 /*.tar.gz
 /*.dsc
