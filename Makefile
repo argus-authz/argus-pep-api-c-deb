@@ -18,7 +18,7 @@
 # Debian packaging
 #
 name = argus-pep-api-c
-version = 2.2.0
+version = 2.3.0
 release = 1
 
 dist_url = http://argus-authz.github.com/$(name)/distrib/$(name)-$(version).tar.gz

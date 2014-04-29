@@ -1,3 +1,9 @@
+argus-pep-api-c (2.3.0-1) unstable; urgency=low
+
+  * Upstream version 2.3.0 for Debian.
+
+ -- Valery Tschopp <valery.tschopp@switch.ch>  Tue, 29 Apr 2014 12:50:48 +0200
+
 argus-pep-api-c (2.2.0-1) unstable; urgency=low
 
   * Upstream version 2.2.0 for Debian.
